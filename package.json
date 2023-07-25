@@ -1,12 +1,6 @@
 {
   "name": "atomico-base",
   "description": "a repo to start with atomico",
-  "meta": {
-    "id": "vite",
-    "title": "Started - Atomico + Vite(JS,JSX,TS,TSX)",
-    "description": "Hassle-free starter template, perfect for starting with Atomico",
-    "branch": "https://github.com/atomicojs/atomico/tree/2-started/"
-  },
   "workspaces": [
     "src/*"
   ],
@@ -14,7 +8,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "vite --port 5173",
     "build": "vite build",
     "create:component": "scaff component-tsx src"
   },
