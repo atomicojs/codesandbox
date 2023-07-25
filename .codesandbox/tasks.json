@@ -11,7 +11,7 @@
     "tasks": {
       "dev": {
         "name": "start",
-        "command": "npm run dev",
+        "command": "yarn start",
         "runAtStart": true,
         "preview": {
           "port": 5173
@@ -19,12 +19,7 @@
       },
       "build": {
         "name": "build",
-        "command": "npm run build",
-        "runAtStart": false
-      },
-      "preview": {
-        "name": "preview",
-        "command": "npm run preview",
+        "command": "yarn build",
         "runAtStart": false
       }
     }
