@@ -1,4 +1,16 @@
 {
-  "extends": "@atomico/tsconfig/base.json",
-  "include": ["src/**/*"]
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Atomico",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "atomico",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"]
+  }
 }
